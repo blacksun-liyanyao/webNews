@@ -1,0 +1,70 @@
+[ 2016-05-31T01:12:30+08:00 ] 172.16.110.0 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003660s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.070314s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.8286s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc,id desc LIMIT 0,10   [ RunTime:0.3858s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.4364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.033772s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.110930s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/webroot/Application/Common/Model/BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /data/webroot/Application/Common/Model/MenuModel.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:1.6356s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:1.1875s ]
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:10.233184s ]
+INFO: [ view_parse ] --END-- [ RunTime:10.318268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.064155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.169727s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-05-31T12:08:42+08:00 ] 172.16.110.0 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007897s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.1091s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc,id desc LIMIT 0,10   [ RunTime:0.0798s ]
+NOTIC: [8] Undefined index: title /data/webroot/Application/Common/Model/PositionContentModel.class.php 第 27 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001570s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001739s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) /data/webroot/Application/Common/Model/BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) /data/webroot/Application/Common/Model/BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) /data/webroot/Application/Common/Model/MenuModel.class.php 第 97 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0933s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.2986s ]
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId /data/webroot/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.518411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.518580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010712s ]
+INFO: 
+INFO: 
+INFO: 
+
